@@ -4,7 +4,7 @@ In this project, I try to make program that could classify object in video using
 List of movements that this program could recognize:
 - TAKE     == Taking an object from shelf
 - CHECK    == Checking an object or nothing from shelf
-- TAKEBACK == Taking and then Returning an object (the same object) to shelf
+- RETURN   == Taking and then Returning an object (the same object) to shelf
 
 List of objects that this program could recognize:
 - Candy       - Chips   - Nothing   - Sponge
