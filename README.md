@@ -12,11 +12,13 @@ List of objects that this program could recognize:
 - Chocopie    - Nextar  - Pokka
 
 **  Note : All video are taken using Handphone camera with 720x1280 resolution
-    Sum of videos each class: 
+   
+   Sum of videos each class: 
+   
     Take        = 205
     CHECK       = 221
-    TAKEBACK    = 225     +
-    -----------------------
+    TAKEBACK    = 225    +
+   -----------------------
     Total         651
 
 
@@ -43,5 +45,6 @@ How to do the same classification:
 5. Model and weights that you get from running training movement. py and training object.py can be used to predict the video datasets in    testing data. Before predicting testing data, you have to do the same preprocessing in step to for testing data. You just have to       change the location in source code of temporal preprocessing.py and spatial preprocessing. py into your testing data location.
 
 Result:
-Movement Recognition : 76.92 % by succesfully predicting 150 of 195 videos.
-Object Recognition   : 55.90 % by succesfully predicting 109 of 195 videos.
+
+    Movement Recognition : 76.92 % by succesfully predicting 150 of 195 videos.
+    Object Recognition   : 55.90 % by succesfully predicting 109 of 195 videos.
