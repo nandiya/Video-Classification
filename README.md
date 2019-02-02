@@ -44,4 +44,4 @@ How to do the same classification:
 
 Result:
 Movement Recognition : 76.92 % by succesfully predicting 150 of 195 videos.
-Object Recognition   : 55.90 & by succesfully predicting 109 of 195 videos.
+Object Recognition   : 55.90 % by succesfully predicting 109 of 195 videos.
