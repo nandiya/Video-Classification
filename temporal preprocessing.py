@@ -36,12 +36,10 @@ for i in range(len(x)):
     n=len(y)%30
     print(x[i])
     for j in range(1,len(y)-n,round((len(y)-n)/30)):
-        #print(round((len(y)-n)/20))
-        #j=j+round((len(y)-n)/20)
+       
         count=count+1
         
-        #print(j)
-        #print(y[j])
+       
         img_next = Image.open('train_test/train/look/'+x[i]+'/'+y[j])
         contrast_enhancer2 = ImageEnhance.Contrast(img_next)
         pil_enhanced_image2 = contrast_enhancer2.enhance(2)
@@ -57,7 +55,7 @@ for i in range(len(x)):
         optic_horz.append(horz)
         optic_verc.append(vert)
       
-        #print(type(horz))
+        
         prvs = img_nextcv
     
     all_op_horz.append(optic_horz)
@@ -96,8 +94,7 @@ all_op1=[]
 for i in range(len(x)):
     count = 0
     y=os.listdir('train_test/train/take/'+x[i]+'/')
-    #cap = cv2.VideoCapture(r'C:\\Users\\ri_na\\Downloads\\Compressed\\datas\\lookagnes_v1.mp4')
-    #print(y[0])
+ 
     img = Image.open('train_test/train/take/'+x[i]+'/'+y[0])
     contrast_enhancer = ImageEnhance.Contrast(img)
     pil_enhanced_image = contrast_enhancer.enhance(2)
@@ -167,8 +164,7 @@ all_op2=[]
 for i in range(len(x)):
     count = 0
     y=os.listdir('train_test/train/takeback/'+x[i]+'/')
-    #cap = cv2.VideoCapture(r'C:\\Users\\ri_na\\Downloads\\Compressed\\datas\\lookagnes_v1.mp4')
-    #print(y[0])
+   
     img = Image.open('train_test/train/takeback/'+x[i]+'/'+y[0])
     contrast_enhancer = ImageEnhance.Contrast(img)
     pil_enhanced_image = contrast_enhancer.enhance(2)
@@ -180,12 +176,10 @@ for i in range(len(x)):
     n=len(y)%30
     print(x[i])
     for j in range(1,len(y)-n,round((len(y)-n)/30)):
-        #print(round((len(y)-n)/20))
-        #j=j+round((len(y)-n)/20)
+     
         count=count+1
         
-        #print(j)
-        #print(y[j])
+       
         img_next = Image.open('train_test/train/takeback/'+x[i]+'/'+y[j])
         contrast_enhancer2 = ImageEnhance.Contrast(img_next)
         pil_enhanced_image2 = contrast_enhancer2.enhance(2)
