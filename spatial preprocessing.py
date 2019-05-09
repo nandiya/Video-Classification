@@ -13,7 +13,7 @@ for i in range(len(x)):
         arr = np.array(img)
         arr=arr/265
         a.append(arr)
-    #cb =np.array(optic_horz)
+    
     spatial= np.dstack((a[0],a[1],a[2],a[3],a[4],a[5],a[6],a[7],a[8],a[9]))
     all_spatial.append(spatial)
     spatial=[]
